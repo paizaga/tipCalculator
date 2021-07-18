@@ -44,6 +44,10 @@ class ViewController: UIViewController {
         totalLabel.text = String (format: "$%.2f", total)
     }
     
+    @IBAction func onTap(sender: Any) {
+            view.endEditing(true)
+            
+        }
 
 }
 
